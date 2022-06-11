@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/images/AdobeStock_126681215-min.jpg);
+    background-size: cover;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 40px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-height: 120px;
+    width: 100%;
+}
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+
+h1,
+h2,
+h3 {
+    color: #f4f6d9;
+    font-family: "audiowide", Impact, Haettenschweiler, "Arial Narrow Bold",
+        sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.logotext {
+    display: inline-block;
+    width: 3em;
+    font-size: 25px;
+    font-family: "audiowide", Impact, Haettenschweiler, "Arial Narrow Bold",
+            sans-serif;
+}
+
+li {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+p , h2{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+color: #f4f6d9;
+margin: 15px auto;
+padding: 10px;
+text-align: center;
+max-width: 500px;
+}
+.logo {
+    width: 75px;
+    margin: 10px;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+img {
+    max-width: 100px;
+    min-height: 110px;
+    margin: 10px 25px;
+    float: left;
+}
+.imgdiv {
+    width: 350px;
+    margin: auto;
+}
+.photo{
+    width: 100%;
+}
