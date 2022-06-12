@@ -25,7 +25,10 @@ footer {
     text-align: center;
     background-color: black;
 }
-
+.right-align{
+    margin: 80px 50px;
+    list-style-type: none;
+}
 
 h1,
 h2,
@@ -70,16 +73,16 @@ max-width: 500px;
     color: white;
 }
 
-img {
-    max-width: 100px;
-    min-height: 110px;
-    margin: 10px 25px;
-    float: left;
-}
 .imgdiv {
-    width: 350px;
-    margin: auto;
+    width: 500px;
+    margin: 30px auto;
 }
-.photo{
+img{
     width: 100%;
+}
+a {
+    color: white;
+}
+main > div > ul {
+    text-align: center;
 }

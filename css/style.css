@@ -38,7 +38,16 @@ footer > div, header > div {
     text-align: center;
     margin: 10px;
 }
-
+.foodlogo {
+    font-size: 50px;
+    width: 260px;
+    font-family: 'Krub', sans-serif;
+    color: black;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
 /*carousel*/
 .wrapper {
     width: 100%;
@@ -94,9 +103,4 @@ footer > div, header > div {
 
 img{
     width: 260px;
-}
-.foodlogo{
-    font-size: 50px;
-    width: 260px;
-    font-family: 'Krub', sans-serif;
 }
