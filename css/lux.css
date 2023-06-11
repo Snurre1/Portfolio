@@ -1,0 +1,16 @@
+
+
+body {
+    text-align: center;
+    background-color: #FFF4AE;
+    
+}
+
+.header {
+    color: #510A52;
+    font-size: 5rem;
+}
+
+main {
+    min-height: calc(100vh - 40px);
+}

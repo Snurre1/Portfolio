@@ -9,7 +9,9 @@ Gamehub, my first project as a front-end dev.
 
 Community Science Museum, only HTML and CSS.
 
-Foodcorner, my project exam for my first year at Noroff.
+Lux is made with bootstrap, sass and JS.
+
+YourBNB is made with react, styled components and JS.
 
 
 Built With
@@ -17,6 +19,10 @@ Built With
 HTML
 CSS
 Javascript
+Bootstrap 
+Sass
+React
+Styled components
 
 Contact
 

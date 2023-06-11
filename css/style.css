@@ -5,9 +5,15 @@
     padding: 0px;
 }
 body{
-    background: rgb(249, 249, 251);
-        background: linear-gradient(90deg, rgba(249, 249, 251, 1) 0%, rgba(240, 247, 192, 1) 58%, rgba(238, 237, 127, 1) 100%);
+    background: radial-gradient(at 18% 99%, rgb(223, 229, 113) 0px, transparent 50%) repeat scroll 0% 0%, 
+    radial-gradient(at 97% 8%, rgb(118, 249, 173) 0px, transparent 50%) repeat scroll 0% 0%, 
+    radial-gradient(at 79% 82%, rgb(233, 109, 131) 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 96% 10%, rgb(222, 81, 251) 0px, transparent 50%) repeat scroll 0% 0%,    
+    radial-gradient(at 42% 20%, rgb(116, 240, 251) 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 4% 49%, rgb(203, 88, 218) 0px, transparent 50%) repeat scroll 0% 0%, rgba(0, 0, 0, 0) radial-gradient(at 57% 33%, rgb(218, 83, 228) 0px, #a299ff 50%) repeat scroll 0% 0%;
 }
+    
+
 main{
     min-height: calc(100vh - 40px);
     display: flex;
@@ -17,17 +23,21 @@ main{
 h1 , h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 40px;
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 h2, li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.about {
+    margin: 10px;
+    padding: 40px;
+    font-size: 1rem;
+    max-width: 650px;
+} 
 
 .logo{
-    font-size: 75px;
-    text-align: center;
-    margin:25px;
+    font-size: 50px;
 }
 
 li{
@@ -40,7 +50,6 @@ footer > div, header > div {
 }
 .foodlogo {
     font-size: 50px;
-    width: 260px;
     font-family: 'Krub', sans-serif;
     color: black;
 }
@@ -64,7 +73,8 @@ a{
 }
 
 .container {
-    width: 290px;
+    min-width: 282px;
+    text-align: center;
     padding: 10px;
     margin: auto;
     box-sizing: border-box;
@@ -80,7 +90,7 @@ a{
     display: flex;
     justify-content: center;
     align-content: center;
-    background: white;
+    background: rgb(252, 252, 252);
     border: none;
     padding: 8px;
     border-radius: 50%;
@@ -93,7 +103,7 @@ a{
     left: 0;
     transform: translate(50%, -50%);
     display: none;
-    background: rgba(238, 237, 127, 1);
+    
 }
 
 .btn-right {
