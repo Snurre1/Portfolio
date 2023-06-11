@@ -14,3 +14,15 @@ body {
 main {
     min-height: calc(100vh - 40px);
 }
+
+a{
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.size {
+    max-width: 700px;
+}

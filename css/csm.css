@@ -52,6 +52,7 @@ h1{
 
 li {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    list-style-type: none;
 }
 
 p , h2{
